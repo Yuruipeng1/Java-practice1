@@ -1,0 +1,22 @@
+server:
+  port: 80
+
+
+spring:
+  datasource:
+    druid:
+      driver-class-name:
+      url:
+      username:
+      password:
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #??mp??
+
+
+
